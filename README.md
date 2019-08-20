@@ -77,6 +77,9 @@ Training for 100 epochs without hyper-tuning the network I got the following res
 After tuning dropout, adding max-pooling layer and batch normalization I got the test accuracy of 99%.<br>
 So how I achieved more than 90% accuracy below different model with hyperparameter tuning.<br>
 
+![](images/loss.png)
+![](images/accuracy.png)
+
 ## 9. Test Results
 As we had data in a format of train, test, dev. So we used test data to check the accuracy.<br>
 After testing we got these final results:<br>
