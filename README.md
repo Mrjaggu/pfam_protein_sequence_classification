@@ -4,6 +4,10 @@ Pfam seed random split protein sequence multi-class classification using deep le
 ## Introduction
 Understanding the relationship between amino acid sequence and protein function is a long-standing problem in molecular biology with far-reaching scientific implications. Despite six decades of progress, state-of-the-art techniques cannot annotate 1/3 of microbial protein sequences, hampering our ability to exploit sequences collected from diverse organisms. To address this, we report a deep learning model that learns the relationship between unaligned amino acid sequences and their functional classification across all 17929 families of the Pfam database. Our model co-locates sequences from unseen families in embedding space, allowing sequences from novel families to be accurately annotated. These results suggest deep learning models will be a core component of future protein function prediction tools. Predicting the function of a protein from its raw amino acid sequence is the critical step for understanding the relationship between genotype and phenotype. As the cost of DNA sequencing drops and metagenomic sequencing projects flourish, fast and efficient tools that annotate open reading frames with the function will play a central role in exploiting this data.
 
+## Demo video of project
+![alt-text](https://github.com/Mrjaggu/pfam_random_split_protein_sequenc_classification/blob/master/gif.gif)
+
+you can find the flask css code for this in repo link here - https://github.com/Mrjaggu/flask-protein-sequence
 ## 1. Business/Real-World Problem
 Classifying given protein sequence of amino acid to one of the family accession.
 This model can be used for prediction of a given protein sequence of amino acid. The model will generate a number of classes probability values corresponding to the number of class or family accession. The highest probability value to the corresponding class will be the predicted class for that protein sequence of amino acid.
